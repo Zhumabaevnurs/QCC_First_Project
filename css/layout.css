@@ -1,0 +1,95 @@
+/* Style the top navigation bar */
+
+.top {
+    overflow: hidden;
+    background-color: grey;
+    margin-bottom: -15px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    font-size: block;
+}
+
+/* Style the topnav links */
+
+.top a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+.top a:hover {color:lightblue; text-decoration: underline; background-color: #20B2AA ;}
+.column{
+  width: 30%;
+  height:50em;
+  box-sizing: border-box;
+  box-shadow: 0.5em 0.5em 0.5em black;
+  float: left;
+  margin: 1em;
+}
+.picture{
+  width:100%;
+  height:25em;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 25em;
+  box-sizing: border-box;
+}
+.read{
+  width: 100%;
+  height: 3em;
+  align:center;
+text-align: center;
+padding: 1em;
+box-sizing: border-box;
+background-color: orange;
+}
+img{
+  width:100%;
+  height: 100%;
+}
+.read:hover{
+  background-color: blue;
+  box-shadow: 0.5em 0.5em 0.5em green;
+}
+a{
+  text-decoration: none;
+  color: yellow;
+}
+.picture{
+  width: 100%;
+  height: 25em;
+  box-sizing: border-box;
+  animation: zoomAuto;
+}
+@keyframes zoomAuto {
+  0%{transform: scale(0);}
+  30%{transform: scale(0.5);}
+  60%{transform: scale(0);}
+  100%{transform: scale(0);}
+}
+.overlay_slide{
+  position: static;
+  width: 100%;
+  height: 0;
+  top:100%;
+  background-color: rgba(255,0,0,0.6);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  transition: 1s;
+}
+.picture:hover .overlay_slide{
+  height: 100%;
+  top:0;
+}
+.container{
+  width: 100%;
+  height: 27em;
+  box-sizing: border-box;
+}

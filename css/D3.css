@@ -1,0 +1,73 @@
+.display{
+  perspective: 10em;
+  height: 7em;
+  text-align: center;
+}
+span{
+  display:inline-block;
+  color: Green;
+  font-size: 5em;
+  font-family: Castellar;
+  font-weight: border;
+  align: center;
+}
+span:nth-child(1)
+{
+  animation: text 1s
+}
+span:nth-child(2)
+{
+  animation: text 2s
+}
+span:nth-child(3)
+{
+  animation: text 1s
+}
+span:nth-child(4)
+{
+  animation: text 2s
+}
+span:nth-child(5)
+{
+  animation: text 3s
+}
+span:nth-child(6)
+{
+  animation: text 4s
+}
+span:nth-child(7)
+{
+  animation: text 5s
+}
+span:nth-child(8)
+{
+  animation: text 6s
+}
+span:nth-child(9)
+{
+  animation: text 7s
+}
+span:nth-child(10)
+{
+  animation: text 8s
+}
+span:nth-child(11)
+{
+  animation: text 9s
+}
+span:nth-child(12)
+{
+  animation: text 10s
+}
+span:nth-child(13)
+{
+  animation: text 11s
+}
+span:nth-child(14)
+{
+  animation: text 12s
+}
+@keyframes text {
+  from{transform: skewX(90deg);}
+  to{transform: skewX(0deg);}
+}
